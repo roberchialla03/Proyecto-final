@@ -1,0 +1,548 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Estilos */ 
+@font-face{
+    font-family: Open Sans Regular;
+    src: url(fuentes/OpenSans-Regular.ttf)
+    format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: Open Sans Bold;
+    src: url(fuentes/OpenSans-Bold.ttf)
+    format("ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+
+.link-menu{
+    display: none;
+}
+
+.inicio{
+    width: auto;
+    padding: 20px; 
+    height: 600px;
+    background-image: url(imagenes/Fondo1.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+img .inicio{
+    position: absolute;
+    padding: 10px;
+    top: 10px;
+    left: 20px;
+}
+
+.navegacion{
+    overflow: hidden;
+    float: right;
+    margin: 20px;
+    margin-right: 40px;
+    padding: 5px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}    
+
+li{
+    display: inline-block;  
+}
+
+h3 a{
+    color: #f5f0ed;
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px; 
+    margin-left: 15px ;
+}
+
+h1{
+    font-size: 44px;
+    font-family: 'Open Sans', sans-serif;
+    color:#f5f0ed ;
+    font-weight: bold;
+    text-align: center; 
+    padding: 10px;
+    margin: 80px;
+    margin-bottom: 40px;
+    line-height: 60px;
+}
+
+.inicio p{
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #f5f0ed;
+    text-align: center;
+    margin: 80px;
+    padding: 25px;
+}
+
+.inicio hr{
+    height: 2px;
+    width: 120px;
+    background-color: #f5f0ed;
+    color: #f5f0ed;
+    margin-bottom: 20px;
+}
+
+.brunch{
+    width: 50%;
+    height: 350px;
+    background-color: #d03b40;
+    overflow: hidden;
+    float: left;
+}
+
+.brunch h3{
+    color: #ded6c0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin: 15px;
+    margin-top: 75px;
+    padding: 10px;
+}
+
+.brunch p{
+    color: #ded6c0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+.fiesta{
+    width: 50%;
+    height: 350px;
+    background-color: #ded6c0;
+    overflow: hidden;
+    float: left;
+}
+
+.fiesta h3{
+    color: #d03b40;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin: 15px;
+    margin-top: 75px;
+    padding: 10px;
+}
+
+.fiesta p{
+    color: #d03b40;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+.desayuno{
+    width: 100%;
+    height: 450px;
+    background-image: url(imagenes/Fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    overflow: hidden;
+    text-align: center;
+}
+
+.desayuno h2{
+    color: #f5f0ed;
+    font-family:'Open Sans', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 75px;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
+.desayuno hr{
+    height: 2px;
+    width: 100px;
+    background-color: #f5f0ed;
+    color: #f5f0ed;
+    
+}
+
+.desayuno p{
+    color: #f5f0ed;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 25px;
+    margin-bottom: 40px;
+    padding: 30px
+}
+
+.desayuno a{
+    color: #f5f0ed;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    border: 3px solid  #f5f0ed;
+    padding: 15px 10px;
+    margin: 3% 30%;
+}
+
+.pan{
+    width: 50%;
+    height: 350px;
+    background-color: #f5f0ed;
+    float: left;
+    background-image: url(imagenes/Icono1.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.texto1{
+    margin-left: 180px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.pan .texto1 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #3c3c3b;
+    text-align: left;
+    margin-top: 55px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.pan .texto1 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #3c3c3b;
+    text-align: left;
+    padding: 15px;
+}
+
+.tarta{
+    width: 50%;
+    height: 350px;
+    background-color: #f5f0ed;
+    float: left;
+    background-image: url(imagenes/Icono2.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.texto2{
+    margin-left: 180px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.tarta h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #3c3c3b;
+    text-align: left;
+    margin-top: 55px;
+    padding: 10px;
+    font-weight: bold;
+}
+.tarta p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #3c3c3b;
+    text-align: left;
+    padding: 15px;
+}
+
+.dulce{
+    width: 50%;
+    height: 350px;
+    background-color: #f5f0ed;
+    float: left;
+    background-image: url(imagenes/Icono3.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.texto3{
+    margin-left: 180px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.dulce .texto3 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #3c3c3b;
+    text-align: left;
+    margin-top: 55px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.dulce .texto3 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #3c3c3b;
+    text-align: left;
+    padding: 15px;
+}
+
+.eco{
+    width: 50%;
+    height: 350px;
+    background-color: #f5f0ed;
+    float: left;
+    background-image: url(imagenes/Icono4.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.texto4{
+    margin-left: 180px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.eco .texto4 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #3c3c3b;
+    text-align: left;
+    margin-top: 55px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.eco .texto4 p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #3c3c3b;
+    text-align: left;
+    padding: 15px;
+}
+
+.contacto{
+    width: 50%;
+    height: 350px;
+    background-color: #ded6c0;
+    overflow: hidden;
+    float: left;
+}
+
+.contacto h3{
+    color: #d03b40;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin: 15px;
+    margin-top: 75px;
+    padding: 10px;
+}
+
+.contacto p{
+    color: #d03b40;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+.contacto a{
+    text-decoration: none;
+    color:#d03b40;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.ubicacion{
+    width: 50%;
+    height: 350px;
+    background-color: #d03b40;
+    overflow: hidden;
+    float: left;
+}
+
+.ubicacion h3{
+    color: #ded6c0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    margin: 15px;
+    margin-top: 75px;
+    padding: 10px;
+}
+
+.ubicacion p{
+    color: #ded6c0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+.ubicacion a{
+    text-decoration: none;
+    color:#ded6c0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.rights{
+    width: 100%;
+    height: 100px;
+    background-color: #3c3c3b;
+    overflow: hidden;
+}
+
+.rights p{
+    font-family:'Open Sans', sans-serif;
+    color: #f5f0ed;
+    font-size: 16px;
+    padding: 35px;
+    margin: 10px;
+}
+
+/* Media queries */
+@media screen and (max-width: 900px) {
+    .link-menu{
+        display: block;
+        text-decoration: none;
+        color: #ded6c0;
+        font-weight: bold;
+        font-size: 40px;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    .navegacion{
+        display: block;
+        list-style-type: circle;
+        overflow: hidden;
+        color: #d03b40;
+        background-color: #f5f0ed;
+        width: 100%;
+        height: 200px;
+        position: initial;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navegacion li h3 a{
+        color: #d03b40;
+    }
+
+    .navegacion ul li{
+        display: block;
+        margin: 5px;
+        margin-top: 8px;
+        margin-left: 25px;
+        padding: 5px;
+    }
+} 
+
+@media screen and (max-width: 850px) {
+    .pan, .tarta, .dulce, .eco{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .brunch, .fiesta, .contacto, .ubicacion{
+        float: none;
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .brunch h3{
+        margin-top: 40px;
+    }
+
+    .fiesta h3{
+        margin-top: 40px;
+    }
+
+    .contacto h3{
+        margin-top: 40px;
+    }
+
+    .ubicacion h3{
+        margin-top: 40px;
+    }
+
+    .inicio{
+        height: auto;
+    }
+
+    .desayuno{
+        min-height: 600px;
+    }
+}
+    
